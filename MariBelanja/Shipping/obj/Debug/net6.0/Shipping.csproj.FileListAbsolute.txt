@@ -25,3 +25,6 @@ C:\Users\Harits F\Source\Repos\MariBelanja\MariBelanja\Shipping\obj\Debug\net6.0
 C:\Users\Harits F\Source\Repos\MariBelanja\MariBelanja\Shipping\obj\Debug\net6.0\Shipping.pdb
 C:\Users\Harits F\Source\Repos\MariBelanja\MariBelanja\Shipping\obj\Debug\net6.0\Shipping.genruntimeconfig.cache
 C:\Users\Harits F\Source\Repos\MariBelanja\MariBelanja\Shipping\obj\Debug\net6.0\ref\Shipping.dll
+C:\Users\ASUS\Source\Repos\corizacaesar\MariBelanja\MariBelanja\Shipping\obj\Debug\net6.0\Shipping.dll
+C:\Users\ASUS\Source\Repos\corizacaesar\MariBelanja\MariBelanja\Shipping\obj\Debug\net6.0\refint\Shipping.dll
+C:\Users\ASUS\Source\Repos\corizacaesar\MariBelanja\MariBelanja\Shipping\obj\Debug\net6.0\Shipping.pdb

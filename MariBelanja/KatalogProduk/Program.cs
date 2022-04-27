@@ -7,6 +7,10 @@ builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
+//InMemoryDb
+Console.WriteLine("--> Menggunakan InMem Db");
+builder.Services.AddDbContext<AppDbContext>(opt => opt.UseInMemoryDatabase("InMem"));
+
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.
