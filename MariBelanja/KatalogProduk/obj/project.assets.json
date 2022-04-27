@@ -213,11 +213,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "F:\\DOK\\Bootcamp\\MariBelanja\\MariBelanja\\KatalogProduk\\KatalogProduk.csproj",
+      "projectUniqueName": "F:\\DOK\\Bootcamp\\Branckus\\MariBelanja\\KatalogProduk\\KatalogProduk.csproj",
       "projectName": "KatalogProduk",
-      "projectPath": "F:\\DOK\\Bootcamp\\MariBelanja\\MariBelanja\\KatalogProduk\\KatalogProduk.csproj",
+      "projectPath": "F:\\DOK\\Bootcamp\\Branckus\\MariBelanja\\KatalogProduk\\KatalogProduk.csproj",
       "packagesPath": "C:\\Users\\Kus\\.nuget\\packages\\",
-      "outputPath": "F:\\DOK\\Bootcamp\\MariBelanja\\MariBelanja\\KatalogProduk\\obj\\",
+      "outputPath": "F:\\DOK\\Bootcamp\\Branckus\\MariBelanja\\KatalogProduk\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Kus\\AppData\\Roaming\\NuGet\\NuGet.Config",

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "F:\\DOK\\Bootcamp\\MariBelanja\\MariBelanja\\Shipping\\Shipping.csproj": {}
+    "F:\\DOK\\Bootcamp\\Branckus\\MariBelanja\\Shipping\\Shipping.csproj": {}
   },
   "projects": {
-    "F:\\DOK\\Bootcamp\\MariBelanja\\MariBelanja\\Shipping\\Shipping.csproj": {
+    "F:\\DOK\\Bootcamp\\Branckus\\MariBelanja\\Shipping\\Shipping.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "F:\\DOK\\Bootcamp\\MariBelanja\\MariBelanja\\Shipping\\Shipping.csproj",
+        "projectUniqueName": "F:\\DOK\\Bootcamp\\Branckus\\MariBelanja\\Shipping\\Shipping.csproj",
         "projectName": "Shipping",
-        "projectPath": "F:\\DOK\\Bootcamp\\MariBelanja\\MariBelanja\\Shipping\\Shipping.csproj",
+        "projectPath": "F:\\DOK\\Bootcamp\\Branckus\\MariBelanja\\Shipping\\Shipping.csproj",
         "packagesPath": "C:\\Users\\Kus\\.nuget\\packages\\",
-        "outputPath": "F:\\DOK\\Bootcamp\\MariBelanja\\MariBelanja\\Shipping\\obj\\",
+        "outputPath": "F:\\DOK\\Bootcamp\\Branckus\\MariBelanja\\Shipping\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Kus\\AppData\\Roaming\\NuGet\\NuGet.Config",

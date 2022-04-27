@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "fasj2G2pyuK8YSgBIODPfzW5Woz5gO/xBfWDHR8lfQWaPGoDbcj09YTjJUFurs7/Jqre9GABxnIfT5btAyrf8A==",
+  "dgSpecHash": "otRi21OmZYs/BlumdegEuaCqhg6DR3PDKaYNCaldoDD9KeTK02sWdsiAuozm6FLMSNpMaJXDj32xmmphC6DZfw==",
   "success": true,
-  "projectFilePath": "F:\\DOK\\Bootcamp\\MariBelanja\\MariBelanja\\KatalogProduk\\KatalogProduk.csproj",
+  "projectFilePath": "F:\\DOK\\Bootcamp\\Branckus\\MariBelanja\\KatalogProduk\\KatalogProduk.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Kus\\.nuget\\packages\\microsoft.extensions.apidescription.server\\3.0.0\\microsoft.extensions.apidescription.server.3.0.0.nupkg.sha512",
     "C:\\Users\\Kus\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",
