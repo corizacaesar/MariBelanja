@@ -1,0 +1,31 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: katalogs-depl
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: katalogproduk
+  template:
+    metadata:
+      labels:
+        app: katalogproduk
+    spec:
+      containers:
+      - name: katalogproduk
+        image: coriza333/katalogproduk:latest
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: katalogs-clusterip-srv
+spec:
+  type: ClusterIP
+  selector:
+    app: katalogproduk
+  ports:
+  - name: katalogproduk
+    protocol: TCP
+    port: 80
+    targetPort: 80
