@@ -5,7 +5,7 @@ using System.Threading.Tasks;
 using AutoMapper;
 using Shipping.Data;
 using Shipping.DTO;
-using Shipping.Models;
+using Shipping.Model;
 using Microsoft.AspNetCore.Mvc;
 
 namespace Shipping.Controllers
