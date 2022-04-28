@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "F:\\DOK\\Bootcamp\\Project\\MariBelanja\\TransaksiBelanja\\TransaksiBelanja.csproj": {}
+    "F:\\DOK\\Bootcamp\\New MariBelanja\\MariBelanja\\TransaksiBelanja\\TransaksiBelanja.csproj": {}
   },
   "projects": {
-    "F:\\DOK\\Bootcamp\\Project\\MariBelanja\\TransaksiBelanja\\TransaksiBelanja.csproj": {
+    "F:\\DOK\\Bootcamp\\New MariBelanja\\MariBelanja\\TransaksiBelanja\\TransaksiBelanja.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "F:\\DOK\\Bootcamp\\Project\\MariBelanja\\TransaksiBelanja\\TransaksiBelanja.csproj",
+        "projectUniqueName": "F:\\DOK\\Bootcamp\\New MariBelanja\\MariBelanja\\TransaksiBelanja\\TransaksiBelanja.csproj",
         "projectName": "TransaksiBelanja",
-        "projectPath": "F:\\DOK\\Bootcamp\\Project\\MariBelanja\\TransaksiBelanja\\TransaksiBelanja.csproj",
+        "projectPath": "F:\\DOK\\Bootcamp\\New MariBelanja\\MariBelanja\\TransaksiBelanja\\TransaksiBelanja.csproj",
         "packagesPath": "C:\\Users\\Kus\\.nuget\\packages\\",
-        "outputPath": "F:\\DOK\\Bootcamp\\Project\\MariBelanja\\TransaksiBelanja\\obj\\",
+        "outputPath": "F:\\DOK\\Bootcamp\\New MariBelanja\\MariBelanja\\TransaksiBelanja\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Kus\\AppData\\Roaming\\NuGet\\NuGet.Config",
