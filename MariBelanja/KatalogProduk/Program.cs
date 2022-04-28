@@ -1,4 +1,5 @@
 using KatalogProduk.Data;
+using KatalogProduk.SyncDataServices.Http;
 using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -14,7 +15,8 @@ builder.Services.AddAutoMapper(AppDomain.CurrentDomain.GetAssemblies());
 //InMemory Service
 builder.Services.AddDbContext<AppDbContext>(opt => opt.UseInMemoryDatabase("InMem"));
 
-//builder.Services.AddHttpClient<ICommandDataClient, HttpCommandDataClient>();
+//HttpClient
+builder.Services.AddHttpClient<ICommandDataClient, HttpCommandDataClient>();
 
 builder.Services.AddScoped<IProduk, ProdukRepo>();
 
