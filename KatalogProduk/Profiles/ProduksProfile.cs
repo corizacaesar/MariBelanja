@@ -9,7 +9,7 @@ namespace KatalogProduk.Profiles
         public ProduksProfile()
         {
             CreateMap<Produk, ProdukDTO>();
-            CreateMap<ProdukDTO, Produk>();
+            CreateMap<ProdukCreateDTO, Produk>();
 
         }
     }
