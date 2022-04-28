@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "F:\\DOK\\Bootcamp\\MariBelanja\\MariBelanja\\KatalogProduk\\KatalogProduk.csproj": {}
+    "F:\\DOK\\Bootcamp\\Branckus\\MariBelanja\\KatalogProduk\\KatalogProduk.csproj": {}
   },
   "projects": {
-    "F:\\DOK\\Bootcamp\\MariBelanja\\MariBelanja\\KatalogProduk\\KatalogProduk.csproj": {
+    "F:\\DOK\\Bootcamp\\Branckus\\MariBelanja\\KatalogProduk\\KatalogProduk.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "F:\\DOK\\Bootcamp\\MariBelanja\\MariBelanja\\KatalogProduk\\KatalogProduk.csproj",
+        "projectUniqueName": "F:\\DOK\\Bootcamp\\Branckus\\MariBelanja\\KatalogProduk\\KatalogProduk.csproj",
         "projectName": "KatalogProduk",
-        "projectPath": "F:\\DOK\\Bootcamp\\MariBelanja\\MariBelanja\\KatalogProduk\\KatalogProduk.csproj",
+        "projectPath": "F:\\DOK\\Bootcamp\\Branckus\\MariBelanja\\KatalogProduk\\KatalogProduk.csproj",
         "packagesPath": "C:\\Users\\Kus\\.nuget\\packages\\",
-        "outputPath": "F:\\DOK\\Bootcamp\\MariBelanja\\MariBelanja\\KatalogProduk\\obj\\",
+        "outputPath": "F:\\DOK\\Bootcamp\\Branckus\\MariBelanja\\KatalogProduk\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Kus\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -40,6 +40,28 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "dependencies": {
+            "AutoMapper.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[11.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[6.0.4, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.0.4, )"
+            },
+            "Microsoft.EntityFrameworkCore.InMemory": {
+              "target": "Package",
+              "version": "[6.0.4, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[6.0.4, )"
+            },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
               "version": "[6.2.3, )"
