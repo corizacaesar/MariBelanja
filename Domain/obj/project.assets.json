@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "G:\\Belajar\\Belajar C#\\MariBelanja\\Domain\\Domain.csproj",
+      "projectUniqueName": "C:\\Users\\Harits F\\Documents\\GitHub\\MariBelanja\\Domain\\Domain.csproj",
       "projectName": "Domain",
-      "projectPath": "G:\\Belajar\\Belajar C#\\MariBelanja\\Domain\\Domain.csproj",
+      "projectPath": "C:\\Users\\Harits F\\Documents\\GitHub\\MariBelanja\\Domain\\Domain.csproj",
       "packagesPath": "C:\\Users\\Harits F\\.nuget\\packages\\",
-      "outputPath": "G:\\Belajar\\Belajar C#\\MariBelanja\\Domain\\obj\\",
+      "outputPath": "C:\\Users\\Harits F\\Documents\\GitHub\\MariBelanja\\Domain\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Harits F\\AppData\\Roaming\\NuGet\\NuGet.Config",

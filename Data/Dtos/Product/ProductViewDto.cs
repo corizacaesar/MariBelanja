@@ -13,6 +13,5 @@ namespace Data.Dtos.Product
         public string ProductCategory { get; set; }
         public string ProductDescription { get; set; }
         public int ProductPrice { get; set; }
-        public int ProductStock { get; set; }
     }
 }

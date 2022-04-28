@@ -9,8 +9,6 @@ namespace Data.Dtos.Shipping
     public class ShippingCreateDto
     {
         public int ShoppingId { get; set; }
-        public DateTime DateStart { get; set; }
-        public DateTime DateEnd { get; set; }
         public int ShippingCost { get; set; }
     }
 }

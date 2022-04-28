@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "G:\\Belajar\\Belajar C#\\MariBelanja\\KatalogProduk\\KatalogProduk.csproj": {}
+    "C:\\Users\\Harits F\\Documents\\GitHub\\MariBelanja\\KatalogProduk\\KatalogProduk.csproj": {}
   },
   "projects": {
-    "G:\\Belajar\\Belajar C#\\MariBelanja\\Data\\Data.csproj": {
+    "C:\\Users\\Harits F\\Documents\\GitHub\\MariBelanja\\Data\\Data.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "G:\\Belajar\\Belajar C#\\MariBelanja\\Data\\Data.csproj",
+        "projectUniqueName": "C:\\Users\\Harits F\\Documents\\GitHub\\MariBelanja\\Data\\Data.csproj",
         "projectName": "Data",
-        "projectPath": "G:\\Belajar\\Belajar C#\\MariBelanja\\Data\\Data.csproj",
+        "projectPath": "C:\\Users\\Harits F\\Documents\\GitHub\\MariBelanja\\Data\\Data.csproj",
         "packagesPath": "C:\\Users\\Harits F\\.nuget\\packages\\",
-        "outputPath": "G:\\Belajar\\Belajar C#\\MariBelanja\\Data\\obj\\",
+        "outputPath": "C:\\Users\\Harits F\\Documents\\GitHub\\MariBelanja\\Data\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Harits F\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -28,8 +28,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "G:\\Belajar\\Belajar C#\\MariBelanja\\Domain\\Domain.csproj": {
-                "projectPath": "G:\\Belajar\\Belajar C#\\MariBelanja\\Domain\\Domain.csproj"
+              "C:\\Users\\Harits F\\Documents\\GitHub\\MariBelanja\\Domain\\Domain.csproj": {
+                "projectPath": "C:\\Users\\Harits F\\Documents\\GitHub\\MariBelanja\\Domain\\Domain.csproj"
               }
             }
           }
@@ -94,14 +94,14 @@
         }
       }
     },
-    "G:\\Belajar\\Belajar C#\\MariBelanja\\Domain\\Domain.csproj": {
+    "C:\\Users\\Harits F\\Documents\\GitHub\\MariBelanja\\Domain\\Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "G:\\Belajar\\Belajar C#\\MariBelanja\\Domain\\Domain.csproj",
+        "projectUniqueName": "C:\\Users\\Harits F\\Documents\\GitHub\\MariBelanja\\Domain\\Domain.csproj",
         "projectName": "Domain",
-        "projectPath": "G:\\Belajar\\Belajar C#\\MariBelanja\\Domain\\Domain.csproj",
+        "projectPath": "C:\\Users\\Harits F\\Documents\\GitHub\\MariBelanja\\Domain\\Domain.csproj",
         "packagesPath": "C:\\Users\\Harits F\\.nuget\\packages\\",
-        "outputPath": "G:\\Belajar\\Belajar C#\\MariBelanja\\Domain\\obj\\",
+        "outputPath": "C:\\Users\\Harits F\\Documents\\GitHub\\MariBelanja\\Domain\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Harits F\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -148,14 +148,14 @@
         }
       }
     },
-    "G:\\Belajar\\Belajar C#\\MariBelanja\\KatalogProduk\\KatalogProduk.csproj": {
+    "C:\\Users\\Harits F\\Documents\\GitHub\\MariBelanja\\KatalogProduk\\KatalogProduk.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "G:\\Belajar\\Belajar C#\\MariBelanja\\KatalogProduk\\KatalogProduk.csproj",
+        "projectUniqueName": "C:\\Users\\Harits F\\Documents\\GitHub\\MariBelanja\\KatalogProduk\\KatalogProduk.csproj",
         "projectName": "KatalogProduk",
-        "projectPath": "G:\\Belajar\\Belajar C#\\MariBelanja\\KatalogProduk\\KatalogProduk.csproj",
+        "projectPath": "C:\\Users\\Harits F\\Documents\\GitHub\\MariBelanja\\KatalogProduk\\KatalogProduk.csproj",
         "packagesPath": "C:\\Users\\Harits F\\.nuget\\packages\\",
-        "outputPath": "G:\\Belajar\\Belajar C#\\MariBelanja\\KatalogProduk\\obj\\",
+        "outputPath": "C:\\Users\\Harits F\\Documents\\GitHub\\MariBelanja\\KatalogProduk\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Harits F\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -172,11 +172,11 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "G:\\Belajar\\Belajar C#\\MariBelanja\\Data\\Data.csproj": {
-                "projectPath": "G:\\Belajar\\Belajar C#\\MariBelanja\\Data\\Data.csproj"
+              "C:\\Users\\Harits F\\Documents\\GitHub\\MariBelanja\\Data\\Data.csproj": {
+                "projectPath": "C:\\Users\\Harits F\\Documents\\GitHub\\MariBelanja\\Data\\Data.csproj"
               },
-              "G:\\Belajar\\Belajar C#\\MariBelanja\\Domain\\Domain.csproj": {
-                "projectPath": "G:\\Belajar\\Belajar C#\\MariBelanja\\Domain\\Domain.csproj"
+              "C:\\Users\\Harits F\\Documents\\GitHub\\MariBelanja\\Domain\\Domain.csproj": {
+                "projectPath": "C:\\Users\\Harits F\\Documents\\GitHub\\MariBelanja\\Domain\\Domain.csproj"
               }
             }
           }

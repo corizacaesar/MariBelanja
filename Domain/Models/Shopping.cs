@@ -10,8 +10,7 @@ namespace Domain.Models
     {
         public int Id { get; set; }
         public int ProductId { get; set; }
-        public List<Product> Product { get; set; }
-        public int TotalOrder { get; set; }
+        public Product Product { get; set; }
         public DateTime ShoppingTime { get; set; }
     }
 }

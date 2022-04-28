@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "UgbztHmbzZ+dO8tCukuEF8txrKTxHvyvbxlgdMkSfV189v4vxd7z6528NmaxGDwCtd+ZDTMSKxHaz6ThEtRiPA==",
+  "dgSpecHash": "kw4JcGkh7283qs8j3BiuHtH8zJk8+anQgY0egTNUl55bEFit5MB+DNOVdLaprG0Sb9aKw6ymjMrmVau98O3T5w==",
   "success": true,
-  "projectFilePath": "G:\\Belajar\\Belajar C#\\MariBelanja\\KatalogProduk\\KatalogProduk.csproj",
+  "projectFilePath": "C:\\Users\\Harits F\\Documents\\GitHub\\MariBelanja\\KatalogProduk\\KatalogProduk.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Harits F\\.nuget\\packages\\automapper\\11.0.0\\automapper.11.0.0.nupkg.sha512",
     "C:\\Users\\Harits F\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\11.0.0\\automapper.extensions.microsoft.dependencyinjection.11.0.0.nupkg.sha512",
