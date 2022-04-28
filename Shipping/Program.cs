@@ -1,4 +1,6 @@
 using Shipping.Data;
+using Shipping.EventProcessing;
+using Shipping.AsyncDataService;
 using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -14,6 +16,10 @@ builder.Services.AddDbContext<AppDbContext>(opt => opt.UseInMemoryDatabase("InMe
 builder.Services.AddAutoMapper(AppDomain.CurrentDomain.GetAssemblies());
 
 builder.Services.AddScoped<IShipping, ShippingRepo>();
+builder.Services.AddSingleton<IEventProcessor,EventProcessor>();
+
+builder.Services.AddHostedService<MessageAsyncSubscriber>();
+
 
 var app = builder.Build();
 

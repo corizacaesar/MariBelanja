@@ -4,7 +4,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using AutoMapper;
 using Shipping.DTO;
-using Shipping.Models;
+using Shipping.Model;
 
 namespace Shipping.Profiles
 {

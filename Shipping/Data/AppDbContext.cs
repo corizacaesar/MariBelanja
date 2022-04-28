@@ -2,7 +2,7 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
-using Shipping.Models;
+using Shipping.Model;
 using Microsoft.EntityFrameworkCore;
 
 namespace Shipping.Data

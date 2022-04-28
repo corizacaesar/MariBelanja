@@ -1,0 +1,32 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: shoppings-depl
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: transaksibelanja
+  template:
+    metadata:
+      labels:
+        app: transaksibelanja
+    spec:
+      containers:
+      - name: transaksibelanja
+        image: coriza333/transaksibelanja:latest
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: shoppings-clusterip-srv
+spec:
+  type: ClusterIP
+  selector:
+    app: transaksibelanja
+  ports:
+  - name: transaksibelanja
+    protocol: TCP
+    port: 80
+    targetPort: 80
+        
