@@ -1,3 +1,8 @@
+using Data;
+using Data.Interface;
+using Data.Repositories;
+using Microsoft.EntityFrameworkCore;
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
@@ -6,6 +11,18 @@ builder.Services.AddControllers();
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
+
+//AutoMapper
+builder.Services.AddAutoMapper(AppDomain.CurrentDomain.GetAssemblies());
+
+//EF Core
+builder.Services.AddDbContext<AppDbContext>(options => options.UseInMemoryDatabase(
+        builder.Configuration.GetConnectionString("MyConnection")).EnableSensitiveDataLogging());
+
+//Maping
+builder.Services.AddScoped<IProduct, ProductRepo>();
+builder.Services.AddScoped<IShipping, ShippingRepo>();
+builder.Services.AddScoped<IShopping, ShoppingRepo>();
 
 var app = builder.Build();
 

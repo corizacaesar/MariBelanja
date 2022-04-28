@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Harits F\\source\\repos\\Testing\\Domain\\Domain.csproj": {}
+    "G:\\Belajar\\Belajar C#\\MariBelanja\\Domain\\Domain.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Harits F\\source\\repos\\Testing\\Domain\\Domain.csproj": {
+    "G:\\Belajar\\Belajar C#\\MariBelanja\\Domain\\Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Harits F\\source\\repos\\Testing\\Domain\\Domain.csproj",
+        "projectUniqueName": "G:\\Belajar\\Belajar C#\\MariBelanja\\Domain\\Domain.csproj",
         "projectName": "Domain",
-        "projectPath": "C:\\Users\\Harits F\\source\\repos\\Testing\\Domain\\Domain.csproj",
+        "projectPath": "G:\\Belajar\\Belajar C#\\MariBelanja\\Domain\\Domain.csproj",
         "packagesPath": "C:\\Users\\Harits F\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Harits F\\source\\repos\\Testing\\Domain\\obj\\",
+        "outputPath": "G:\\Belajar\\Belajar C#\\MariBelanja\\Domain\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Harits F\\AppData\\Roaming\\NuGet\\NuGet.Config",

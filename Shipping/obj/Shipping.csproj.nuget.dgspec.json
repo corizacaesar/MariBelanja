@@ -1,20 +1,110 @@
 {
   "format": 1,
   "restore": {
-    "F:\\DOK\\Bootcamp\\Project\\MariBelanja\\Shipping\\Shipping.csproj": {}
+    "G:\\Belajar\\Belajar C#\\MariBelanja\\Shipping\\Shipping.csproj": {}
   },
   "projects": {
-    "F:\\DOK\\Bootcamp\\Project\\MariBelanja\\Shipping\\Shipping.csproj": {
+    "G:\\Belajar\\Belajar C#\\MariBelanja\\Data\\Data.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "F:\\DOK\\Bootcamp\\Project\\MariBelanja\\Shipping\\Shipping.csproj",
-        "projectName": "Shipping",
-        "projectPath": "F:\\DOK\\Bootcamp\\Project\\MariBelanja\\Shipping\\Shipping.csproj",
-        "packagesPath": "C:\\Users\\Kus\\.nuget\\packages\\",
-        "outputPath": "F:\\DOK\\Bootcamp\\Project\\MariBelanja\\Shipping\\obj\\",
+        "projectUniqueName": "G:\\Belajar\\Belajar C#\\MariBelanja\\Data\\Data.csproj",
+        "projectName": "Data",
+        "projectPath": "G:\\Belajar\\Belajar C#\\MariBelanja\\Data\\Data.csproj",
+        "packagesPath": "C:\\Users\\Harits F\\.nuget\\packages\\",
+        "outputPath": "G:\\Belajar\\Belajar C#\\MariBelanja\\Data\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Kus\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Harits F\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "G:\\Belajar\\Belajar C#\\MariBelanja\\Domain\\Domain.csproj": {
+                "projectPath": "G:\\Belajar\\Belajar C#\\MariBelanja\\Domain\\Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "AutoMapper.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[11.0.0, )"
+            },
+            "Microsoft.AspNetCore.Authentication.JwtBearer": {
+              "target": "Package",
+              "version": "[6.0.4, )"
+            },
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[6.0.4, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[6.0.4, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[6.0.4, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.0.4, )"
+            },
+            "System.IdentityModel.Tokens.Jwt": {
+              "target": "Package",
+              "version": "[6.17.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.202\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "G:\\Belajar\\Belajar C#\\MariBelanja\\Domain\\Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "G:\\Belajar\\Belajar C#\\MariBelanja\\Domain\\Domain.csproj",
+        "projectName": "Domain",
+        "projectPath": "G:\\Belajar\\Belajar C#\\MariBelanja\\Domain\\Domain.csproj",
+        "packagesPath": "C:\\Users\\Harits F\\.nuget\\packages\\",
+        "outputPath": "G:\\Belajar\\Belajar C#\\MariBelanja\\Domain\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Harits F\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -39,7 +129,294 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.202\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "G:\\Belajar\\Belajar C#\\MariBelanja\\KatalogProduk\\KatalogProduk.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "G:\\Belajar\\Belajar C#\\MariBelanja\\KatalogProduk\\KatalogProduk.csproj",
+        "projectName": "KatalogProduk",
+        "projectPath": "G:\\Belajar\\Belajar C#\\MariBelanja\\KatalogProduk\\KatalogProduk.csproj",
+        "packagesPath": "C:\\Users\\Harits F\\.nuget\\packages\\",
+        "outputPath": "G:\\Belajar\\Belajar C#\\MariBelanja\\KatalogProduk\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Harits F\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "G:\\Belajar\\Belajar C#\\MariBelanja\\Data\\Data.csproj": {
+                "projectPath": "G:\\Belajar\\Belajar C#\\MariBelanja\\Data\\Data.csproj"
+              },
+              "G:\\Belajar\\Belajar C#\\MariBelanja\\Domain\\Domain.csproj": {
+                "projectPath": "G:\\Belajar\\Belajar C#\\MariBelanja\\Domain\\Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
           "dependencies": {
+            "AutoMapper.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[11.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[6.0.4, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.0.4, )"
+            },
+            "Microsoft.EntityFrameworkCore.InMemory": {
+              "target": "Package",
+              "version": "[6.0.4, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[6.0.4, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.0.4, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.2.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.202\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "G:\\Belajar\\Belajar C#\\MariBelanja\\Shipping\\Shipping.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "G:\\Belajar\\Belajar C#\\MariBelanja\\Shipping\\Shipping.csproj",
+        "projectName": "Shipping",
+        "projectPath": "G:\\Belajar\\Belajar C#\\MariBelanja\\Shipping\\Shipping.csproj",
+        "packagesPath": "C:\\Users\\Harits F\\.nuget\\packages\\",
+        "outputPath": "G:\\Belajar\\Belajar C#\\MariBelanja\\Shipping\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Harits F\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "G:\\Belajar\\Belajar C#\\MariBelanja\\Data\\Data.csproj": {
+                "projectPath": "G:\\Belajar\\Belajar C#\\MariBelanja\\Data\\Data.csproj"
+              },
+              "G:\\Belajar\\Belajar C#\\MariBelanja\\Domain\\Domain.csproj": {
+                "projectPath": "G:\\Belajar\\Belajar C#\\MariBelanja\\Domain\\Domain.csproj"
+              },
+              "G:\\Belajar\\Belajar C#\\MariBelanja\\TransaksiBelanja\\TransaksiBelanja.csproj": {
+                "projectPath": "G:\\Belajar\\Belajar C#\\MariBelanja\\TransaksiBelanja\\TransaksiBelanja.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "AutoMapper.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[11.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[6.0.4, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.0.4, )"
+            },
+            "Microsoft.EntityFrameworkCore.InMemory": {
+              "target": "Package",
+              "version": "[6.0.4, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[6.0.4, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.0.4, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.2.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.202\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "G:\\Belajar\\Belajar C#\\MariBelanja\\TransaksiBelanja\\TransaksiBelanja.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "G:\\Belajar\\Belajar C#\\MariBelanja\\TransaksiBelanja\\TransaksiBelanja.csproj",
+        "projectName": "TransaksiBelanja",
+        "projectPath": "G:\\Belajar\\Belajar C#\\MariBelanja\\TransaksiBelanja\\TransaksiBelanja.csproj",
+        "packagesPath": "C:\\Users\\Harits F\\.nuget\\packages\\",
+        "outputPath": "G:\\Belajar\\Belajar C#\\MariBelanja\\TransaksiBelanja\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Harits F\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "G:\\Belajar\\Belajar C#\\MariBelanja\\Data\\Data.csproj": {
+                "projectPath": "G:\\Belajar\\Belajar C#\\MariBelanja\\Data\\Data.csproj"
+              },
+              "G:\\Belajar\\Belajar C#\\MariBelanja\\Domain\\Domain.csproj": {
+                "projectPath": "G:\\Belajar\\Belajar C#\\MariBelanja\\Domain\\Domain.csproj"
+              },
+              "G:\\Belajar\\Belajar C#\\MariBelanja\\KatalogProduk\\KatalogProduk.csproj": {
+                "projectPath": "G:\\Belajar\\Belajar C#\\MariBelanja\\KatalogProduk\\KatalogProduk.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "AutoMapper.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[11.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[6.0.4, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.0.4, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[6.0.4, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.0.4, )"
+            },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
               "version": "[6.2.3, )"
