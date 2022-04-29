@@ -1,7 +1,7 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: authorization-depl
+  name: usermanagement-depl
 spec:
   replicas: 1
   selector:
@@ -19,7 +19,7 @@ spec:
 apiVersion: v1
 kind: Service
 metadata:
-  name: authorizations-clusterip-srv
+  name: usermanagement-clusterip-srv
 spec:
   type: ClusterIP
   selector:

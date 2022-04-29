@@ -28,7 +28,7 @@ builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
 // jwt token
- var AppSettingSection = builder.Configuration.GetSection("AppSettings");
+/* var AppSettingSection = builder.Configuration.GetSection("AppSettings");
 builder.Services.Configure<AppSettings>(AppSettingSection);
 var AppSetting = AppSettingSection.Get<AppSettings>();
 var key = Encoding.ASCII.GetBytes(AppSetting.Secret);
@@ -51,6 +51,7 @@ builder.Services.AddAuthentication(options =>
 
         };
 });
+*/
 
 var app = builder.Build();
 

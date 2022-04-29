@@ -28,29 +28,29 @@ builder.Services.AddHostedService<MessageAsyncSubscriber>();
 //builder.Services.AddIdentity<IdentityUser, IdentityRole>().AddDefaultTokenProviders().AddEntityFrameworkStores<AppDbContext>();
 
 //jwt token
-var appSettingsSection = builder.Configuration.GetSection("AppSettings");
-builder.Services.Configure<AppSettings>(appSettingsSection);
-var appSettings = appSettingsSection.Get<AppSettings>();
-var key = Encoding.ASCII.GetBytes(appSettings.Secret);
+// var appSettingsSection = builder.Configuration.GetSection("AppSettings");
+// builder.Services.Configure<AppSettings>(appSettingsSection);
+// var appSettings = appSettingsSection.Get<AppSettings>();
+// var key = Encoding.ASCII.GetBytes(appSettings.Secret);
 
-builder.Services.AddAuthentication(options =>
-{
-    options.DefaultAuthenticateScheme = JwtBearerDefaults.AuthenticationScheme;
-    options.DefaultChallengeScheme = JwtBearerDefaults.AuthenticationScheme;
-}).AddJwtBearer(options =>
-{
-    options.RequireHttpsMetadata = false;
-    options.SaveToken = true;
-    options.TokenValidationParameters = new Microsoft.IdentityModel.Tokens.TokenValidationParameters
-    {
-        ValidateIssuerSigningKey = true,
-        IssuerSigningKey = new SymmetricSecurityKey(key),
-        ValidateIssuer = false,
-        ValidateAudience = false
+// builder.Services.AddAuthentication(options =>
+// {
+//     options.DefaultAuthenticateScheme = JwtBearerDefaults.AuthenticationScheme;
+//     options.DefaultChallengeScheme = JwtBearerDefaults.AuthenticationScheme;
+// }).AddJwtBearer(options =>
+// {
+//     options.RequireHttpsMetadata = false;
+//     options.SaveToken = true;
+//     options.TokenValidationParameters = new Microsoft.IdentityModel.Tokens.TokenValidationParameters
+//     {
+//         ValidateIssuerSigningKey = true,
+//         IssuerSigningKey = new SymmetricSecurityKey(key),
+//         ValidateIssuer = false,
+//         ValidateAudience = false
 
 
-    };
-});
+//     };
+// });
 
 var app = builder.Build();
 
