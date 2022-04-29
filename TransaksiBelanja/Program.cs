@@ -14,12 +14,12 @@ builder.Services.AddSwaggerGen();
 //maper
 builder.Services.AddAutoMapper(AppDomain.CurrentDomain.GetAssemblies());
 //EF Core
-builder.Services.AddDbContext<AppDbContext>(options => options.UseSqlServer(
-        builder.Configuration.GetConnectionString("MyConnection")).EnableSensitiveDataLogging());
+builder.Services.AddDbContext<AppDbContext>(opt => opt.UseInMemoryDatabase("InMem"));
+//builder.Services.AddDbContext<AppDbContext>(options => options.UseSqlServer(builder.Configuration.GetConnectionString("MyConnection")).EnableSensitiveDataLogging());
 
 //Maping
 builder.Services.AddScoped<IShopping, ShoppingRepo>();
-
+builder.Services.AddScoped<IProduct, ProductRepo>();
 
 builder.Services.AddSingleton<IMessageAsyncClient, MessageAsyncClient>();
 
@@ -32,7 +32,7 @@ if (app.Environment.IsDevelopment())
     app.UseSwaggerUI();
 }
 
-app.UseHttpsRedirection();
+//app.UseHttpsRedirection();
 
 app.UseAuthorization();
 

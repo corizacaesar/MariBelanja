@@ -2,7 +2,7 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
-using Shipping.Model;
+using Shipping.Models;
 using Microsoft.EntityFrameworkCore;
 
 namespace Shipping.Data
@@ -35,20 +35,20 @@ namespace Shipping.Data
             }
         }
 
-        public async Task<IEnumerable<Shipping>> GetAll()
+        public async Task<IEnumerable<Ship>> GetAll()
         {
             var results = await _context.Shippings.OrderBy(s => s.Id).AsNoTracking().ToListAsync();
             return results;
         }
 
-        public async Task<Shipping> GetById(int id)
+        public async Task<Ship> GetById(int id)
         {
             var result = await _context.Shippings.FirstOrDefaultAsync(s => s.Id == id);
             if (result == null) throw new Exception($"Data Shipping id : {id} tidak ditemukan");
             return result;
         }
 
-        public async Task<Shipping> Insert(Shipping obj)
+        public async Task<Ship> Insert(Ship obj)
         {
             try
             {
@@ -66,7 +66,7 @@ namespace Shipping.Data
             }
         }
 
-        public async Task<Shipping> Update(int id, Shipping obj)
+        public async Task<Ship> Update(int id, Ship obj)
         {
             try
             {

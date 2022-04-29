@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\ASUS\\source\\repos\\corizacaesar\\MariBelanja\\Shipping\\Shipping.csproj": {}
+    "F:\\DOK\\Bootcamp\\New MariBelanja\\MariBelanja\\Shipping\\Shipping.csproj": {}
   },
   "projects": {
-    "C:\\Users\\ASUS\\source\\repos\\corizacaesar\\MariBelanja\\Shipping\\Shipping.csproj": {
+    "F:\\DOK\\Bootcamp\\New MariBelanja\\MariBelanja\\Shipping\\Shipping.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\ASUS\\source\\repos\\corizacaesar\\MariBelanja\\Shipping\\Shipping.csproj",
+        "projectUniqueName": "F:\\DOK\\Bootcamp\\New MariBelanja\\MariBelanja\\Shipping\\Shipping.csproj",
         "projectName": "Shipping",
-        "projectPath": "C:\\Users\\ASUS\\source\\repos\\corizacaesar\\MariBelanja\\Shipping\\Shipping.csproj",
-        "packagesPath": "C:\\Users\\ASUS\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\ASUS\\source\\repos\\corizacaesar\\MariBelanja\\Shipping\\obj\\",
+        "projectPath": "F:\\DOK\\Bootcamp\\New MariBelanja\\MariBelanja\\Shipping\\Shipping.csproj",
+        "packagesPath": "C:\\Users\\Kus\\.nuget\\packages\\",
+        "outputPath": "F:\\DOK\\Bootcamp\\New MariBelanja\\MariBelanja\\Shipping\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\ASUS\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Kus\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -83,7 +83,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.201\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.202\\RuntimeIdentifierGraph.json"
         }
       }
     }

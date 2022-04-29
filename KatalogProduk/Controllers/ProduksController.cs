@@ -2,6 +2,7 @@
 using KatalogProduk.Data;
 using KatalogProduk.DTO;
 using KatalogProduk.Models;
+using KatalogProduk.SyncDataServices.Http;
 using Microsoft.AspNetCore.Mvc;
 
 // For more information on enabling Web API for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
@@ -14,11 +15,13 @@ namespace KatalogProduk.Controllers
     {
         private readonly IProduk _produk;
         private readonly IMapper _mapper;
+        private readonly ICommandDataClient _commandDataClient;
 
-        public ProduksController(IProduk produk, IMapper mapper)
+        public ProduksController(IProduk produk, IMapper mapper, ICommandDataClient commandDataClient)
         {
             _produk = produk;
             _mapper = mapper;
+            _commandDataClient = commandDataClient;
         }
         // GET: api/<ProduksController>
         [HttpGet]
@@ -55,6 +58,15 @@ namespace KatalogProduk.Controllers
             {
 
                 return BadRequest(ex.Message);
+            }
+            try
+            {
+
+                _commandDataClient.SendProdukToTransaksiBelanja(value);
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine($"Gagal{ex.Message}");
             }
         }
 

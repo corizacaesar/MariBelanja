@@ -2,7 +2,7 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
-using Shipping.Model;
+using Shipping.Models;
 using Microsoft.EntityFrameworkCore;
 
 namespace Shipping.Data
@@ -14,6 +14,6 @@ namespace Shipping.Data
             
         }
 
-        public DbSet<Shipping> Shippings { get; set; }
+        public DbSet<Ship> Shippings { get; set; }
     }
 }

@@ -2,12 +2,12 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
-using Shipping.Model;
+using Shipping.Models;
 //using TransaksiBelanja.Models;
 
 namespace Shipping.Data
 {
-    public interface IShipping : ICrud<Shipping>
+    public interface IShipping : ICrud<Ship>
     {
         //shopping
         //IEnumerable<TransaksiBelanja> GetAll();

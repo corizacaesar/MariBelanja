@@ -4,9 +4,9 @@ using System.Linq;
 using System.Threading.Tasks;
 using System.ComponentModel.DataAnnotations;
 
-namespace Shipping.Model
+namespace Shipping.Models
 {
-    public class Shipping
+    public class Ship
     {
         [Key]
         [Required]

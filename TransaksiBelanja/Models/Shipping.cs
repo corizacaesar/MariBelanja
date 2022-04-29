@@ -9,10 +9,10 @@ namespace TransaksiBelanja.Models
     public class Shipping
     {
         public int Id { get; set; }
-        public int ShoppingId { get; set; }
-        public Shopping Shopping { get; set; }
         public DateTime DateStart { get; set; }
         public DateTime DateEnd { get; set; }
         public int ShippingCost { get; set; }
+        public int ShoppingId { get; set; }
+        public Shopping? Shopping { get; set; }
     }
 }

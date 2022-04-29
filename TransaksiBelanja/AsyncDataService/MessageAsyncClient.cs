@@ -5,6 +5,8 @@ using System.Threading.Tasks;
 using System.Text.Json;
 //using DTO
 using RabbitMQ.Client;
+using Dtos;
+using System.Text;
 
 namespace TransaksiBelanja.AsyncDataService
 {
@@ -14,35 +16,35 @@ namespace TransaksiBelanja.AsyncDataService
         private readonly IConnection _connection;
         private readonly IModel _channel;
 
-        public MessageBusClient(IConfiguration configuration)
-        {
-            _configuration = configuration;
-            var factory = new ConnectionFactory
-            {
-                HostName = _configuration["RabbitMQHost"],
-                Port = int.Parse(_configuration["RabbitMQPort"])
-            };
+        //public MessageBusClient(IConfiguration configuration)
+        //{
+        //    _configuration = configuration;
+        //    var factory = new ConnectionFactory
+        //    {
+        //        HostName = _configuration["RabbitMQHost"],
+        //        Port = int.Parse(_configuration["RabbitMQPort"])
+        //    };
 
-            try
-            {
-                _connection = factory.CreateConnection();
-                _channel = _connection.CreateModel();
-                _channel.ExchangeDeclare(exchange:"trigger",type:ExchangeType.Fanout);
-                _connection.ConnectionShutdown += RabbitMQ_ConnectionShutdown;
-                Console.WriteLine("--> Terkoneksi ke Message Bus RabbitMQ");
-            }
-            catch (Exception ex)
-            {
-                Console.WriteLine($"-->Gagal mengkoneksi ke Message Bus {ex.Message}");
-            }
-        }
+        //    try
+        //    {
+        //        _connection = factory.CreateConnection();
+        //        _channel = _connection.CreateModel();
+        //        _channel.ExchangeDeclare(exchange:"trigger",type:ExchangeType.Fanout);
+        //        _connection.ConnectionShutdown += RabbitMQ_ConnectionShutdown;
+        //        Console.WriteLine("--> Terkoneksi ke Message Bus RabbitMQ");
+        //    }
+        //    catch (Exception ex)
+        //    {
+        //        Console.WriteLine($"-->Gagal mengkoneksi ke Message Bus {ex.Message}");
+        //    }
+        //}
 
         private void RabbitMQ_ConnectionShutdown(object? sender, ShutdownEventArgs e)
         {
             Console.WriteLine("-->RabbitMQ Connection Shutdown");
         }
 
-        public void PublishNewShopping(ShoppingDto shoppingDto)
+        public void PublishNewShopping(ShoppingCreateDto shoppingDto)
         {
             var message = JsonSerializer.Serialize(shoppingDto);
             if(_connection.IsOpen)
@@ -72,5 +74,10 @@ namespace TransaksiBelanja.AsyncDataService
             _channel.BasicPublish(exchange:"trigger",routingKey:"",basicProperties:null,body:body);
             Console.WriteLine($"--> Pesan Terkirim : {message}");
         }
+
+        //public void PublishNewShopping(ShoppingCreateDto shoppingDto)
+        //{
+        //    throw new NotImplementedException();
+        //}
     }
 }

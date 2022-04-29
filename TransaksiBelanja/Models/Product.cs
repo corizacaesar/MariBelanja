@@ -13,6 +13,6 @@ namespace TransaksiBelanja.Models
         public string ProductCategory { get; set; }
         public string ProductDescription { get; set; }
         public int ProductPrice { get; set; }
-        public Shopping Shopping { get; set; }
+        public Shopping? Shopping { get; set; }
     }
 }

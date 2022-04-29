@@ -4,6 +4,6 @@ namespace KatalogProduk.SyncDataServices.Http
 {
     public interface ICommandDataClient
     {
-        Task SendPlatformToCommand(ProdukDTO produk);
+        Task SendProdukToTransaksiBelanja(ProdukDTO produk);
     }
 }

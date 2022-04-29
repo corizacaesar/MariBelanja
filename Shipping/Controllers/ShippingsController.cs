@@ -5,7 +5,7 @@ using System.Threading.Tasks;
 using AutoMapper;
 using Shipping.Data;
 using Shipping.DTO;
-using Shipping.Model;
+using Shipping.Models;
 using Microsoft.AspNetCore.Mvc;
 
 namespace Shipping.Controllers
@@ -49,8 +49,8 @@ namespace Shipping.Controllers
         {
             try
             {
-                var newShipping = _mapper.Map<Shipping>(value);
-                var result = await _produk.Insert(newShipping);
+                var newShipping = _mapper.Map<Ship>(value);
+                var result = await _shipping.Insert(newShipping);
                 var shippingDTO = _mapper.Map<ShippingDTO>(result);
                 return shippingDTO;
             }
@@ -67,7 +67,7 @@ namespace Shipping.Controllers
         {
             try
             {
-                var updateShipping = _mapper.Map<Shipping>(shippingDTO);
+                var updateShipping = _mapper.Map<Ship>(shippingDTO);
                 var result = await _shipping.Update(id, updateShipping);
                 var output = _mapper.Map<ShippingDTO>(result); 
                 return Ok(output);
