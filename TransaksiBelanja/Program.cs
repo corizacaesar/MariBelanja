@@ -21,7 +21,7 @@ builder.Services.AddDbContext<AppDbContext>(opt => opt.UseInMemoryDatabase("InMe
 builder.Services.AddScoped<IShopping, ShoppingRepo>();
 builder.Services.AddScoped<IProduct, ProductRepo>();
 
-builder.Services.AddSingleton<IMessageAsyncClient, MessageAsyncClient>();
+//builder.Services.AddSingleton<IMessageAsyncClient, MessageAsyncClient>();
 
 var app = builder.Build();
 

@@ -17,11 +17,12 @@ namespace KatalogProduk.SyncDataServices.Http
 
         public async Task SendProdukToTransaksiBelanja(Produk pro)
         {
-            var httpContent = new StringContent(JsonSerializer.Serialize(pro),
-            Encoding.UTF8, "apllication/json");
+            var httpContent = new StringContent(JsonSerializer.Serialize(pro), Encoding.UTF8, "apllication/json");
+         
 
             var response = await _httpClient.PostAsync($"{_configuration["TransaksiBelanjaService"]}",
                 httpContent);
+            Console.WriteLine(httpContent);
             if (response.IsSuccessStatusCode)
             {
                 Console.WriteLine("--> Sync POST ke CommandService berhasil dikirimkan");

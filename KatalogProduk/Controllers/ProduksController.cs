@@ -34,7 +34,7 @@ namespace KatalogProduk.Controllers
 
         // GET api/<ProduksController>/5
         [HttpGet("{id}")]
-        public async Task<ActionResult<ProdukDTO>> Get(int id)
+        public async Task<ActionResult<ProdukDTO>> GetId(int id)
         {
             var result = await _produk.GetById(id);
             if (result == null)
@@ -45,29 +45,32 @@ namespace KatalogProduk.Controllers
 
         // POST api/<ProduksController>
         [HttpPost]
-        public async Task<ActionResult<ProdukDTO>> Post(ProdukDTO value)
+        public async Task<ActionResult<Produk>> Post(Produk value)
         {
+            await _produk.Insert(value);
+            // try
+            // {
+            //     var newProduk = _mapper.Map<Produk>(value);
+            //     var result = await _produk.Insert(newProduk);
+            //     var produkDTO = _mapper.Map<ProdukDTO>(result);
+            //     return produkDTO;
+            // }
+            // catch (Exception ex)
+            // {
+
+            //     return BadRequest(ex.Message);
+            // }
             try
             {
-                var newProduk = _mapper.Map<Produk>(value);
-                var result = await _produk.Insert(newProduk);
-                var produkDTO = _mapper.Map<ProdukDTO>(result);
-                return produkDTO;
-            }
-            catch (Exception ex)
-            {
 
-                return BadRequest(ex.Message);
-            }
-            try
-            {
-
-                _commandDataClient.SendProdukToTransaksiBelanja(value);
+                await _commandDataClient.SendProdukToTransaksiBelanja(value);
             }
             catch (Exception ex)
             {
                 Console.WriteLine($"Gagal{ex.Message}");
             }
+            return CreatedAtAction(nameof(GetId),new { Id=value.Id },
+                value);
         }
 
         // PUT api/<ProduksController>/5
