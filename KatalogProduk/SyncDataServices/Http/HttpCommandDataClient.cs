@@ -15,7 +15,7 @@ namespace KatalogProduk.SyncDataServices.Http
             _configuration = configuration;
         }
 
-        public async Task SendProdukToTransaksiBelanja(ProdukDTO pro)
+        public async Task SendProdukToTransaksiBelanja(Produk pro)
         {
             var httpContent = new StringContent(JsonSerializer.Serialize(pro),
             Encoding.UTF8, "apllication/json");
