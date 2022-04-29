@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Jngrf5LdrP3no9I9IUm75aZJeKF4DXhZUuT9gzwcLOb22Cp186i50F6CCQiJYY1K+UY7Amk1ICkOdLuQtInN0A==",
+  "dgSpecHash": "tMWZHvkUdCyOd4Z4x+h/cUAqmN5oXV2jajycD79mX3KLtUZmGDrj+tjzRK+hSr8lz3wo5ynnPSEiyy3vxgYa8g==",
   "success": true,
-  "projectFilePath": "c:\\Users\\ASUS\\source\\repos\\corizacaesar\\MariBelanja\\KatalogProduk\\KatalogProduk.csproj",
+  "projectFilePath": "C:\\Users\\ASUS\\source\\repos\\corizacaesar\\MariBelanja\\KatalogProduk\\KatalogProduk.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\ASUS\\.nuget\\packages\\automapper\\11.0.0\\automapper.11.0.0.nupkg.sha512",
     "C:\\Users\\ASUS\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\11.0.0\\automapper.extensions.microsoft.dependencyinjection.11.0.0.nupkg.sha512",

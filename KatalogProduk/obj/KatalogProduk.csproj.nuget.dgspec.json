@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "c:\\Users\\ASUS\\source\\repos\\corizacaesar\\MariBelanja\\KatalogProduk\\KatalogProduk.csproj": {}
+    "C:\\Users\\ASUS\\source\\repos\\corizacaesar\\MariBelanja\\KatalogProduk\\KatalogProduk.csproj": {}
   },
   "projects": {
-    "c:\\Users\\ASUS\\source\\repos\\corizacaesar\\MariBelanja\\KatalogProduk\\KatalogProduk.csproj": {
+    "C:\\Users\\ASUS\\source\\repos\\corizacaesar\\MariBelanja\\KatalogProduk\\KatalogProduk.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Users\\ASUS\\source\\repos\\corizacaesar\\MariBelanja\\KatalogProduk\\KatalogProduk.csproj",
+        "projectUniqueName": "C:\\Users\\ASUS\\source\\repos\\corizacaesar\\MariBelanja\\KatalogProduk\\KatalogProduk.csproj",
         "projectName": "KatalogProduk",
-        "projectPath": "c:\\Users\\ASUS\\source\\repos\\corizacaesar\\MariBelanja\\KatalogProduk\\KatalogProduk.csproj",
+        "projectPath": "C:\\Users\\ASUS\\source\\repos\\corizacaesar\\MariBelanja\\KatalogProduk\\KatalogProduk.csproj",
         "packagesPath": "C:\\Users\\ASUS\\.nuget\\packages\\",
-        "outputPath": "c:\\Users\\ASUS\\source\\repos\\corizacaesar\\MariBelanja\\KatalogProduk\\obj\\",
+        "outputPath": "C:\\Users\\ASUS\\source\\repos\\corizacaesar\\MariBelanja\\KatalogProduk\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\ASUS\\AppData\\Roaming\\NuGet\\NuGet.Config",
