@@ -1,0 +1,23 @@
+{
+  "Version": 1,
+  "Hash": "5AbG+21HZfytMxkMhb7Q1GsFHPUIbShJkgT1/a8AX/8=",
+  "Source": "UserManagement",
+  "BasePath": "_content/UserManagement",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [
+    {
+      "Identity": "F:\\DOK\\Bootcamp\\GitHub\\MariBelanja\\KatalogProduk\\KatalogProduk.csproj",
+      "Version": 2,
+      "Source": "KatalogProduk",
+      "GetPublishAssetsTargets": "ComputeReferencedStaticWebAssetsPublishManifest;GetCurrentProjectPublishStaticWebAssetItems",
+      "AdditionalPublishProperties": "Configuration=Debug;Platform=AnyCPU",
+      "AdditionalPublishPropertiesToRemove": "WebPublishProfileFile;TargetFramework;RuntimeIdentifier",
+      "GetBuildAssetsTargets": "GetCurrentProjectBuildStaticWebAssetItems",
+      "AdditionalBuildProperties": "Configuration=Debug;Platform=AnyCPU",
+      "AdditionalBuildPropertiesToRemove": "WebPublishProfileFile;TargetFramework;RuntimeIdentifier"
+    }
+  ],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}
