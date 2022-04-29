@@ -1,13 +1,13 @@
 {
   "Version": 1,
-  "Hash": "5AbG+21HZfytMxkMhb7Q1GsFHPUIbShJkgT1/a8AX/8=",
+  "Hash": "KzNys/vlbDWjUwJcyjNTnb9QqGOc3QFowQm0+pgfI1I=",
   "Source": "UserManagement",
   "BasePath": "_content/UserManagement",
   "Mode": "Default",
   "ManifestType": "Build",
   "ReferencedProjectsConfiguration": [
     {
-      "Identity": "F:\\DOK\\Bootcamp\\GitHub\\MariBelanja\\KatalogProduk\\KatalogProduk.csproj",
+      "Identity": "F:\\DOK\\Bootcamp\\New MariBelanja\\MariBelanja\\KatalogProduk\\KatalogProduk.csproj",
       "Version": 2,
       "Source": "KatalogProduk",
       "GetPublishAssetsTargets": "ComputeReferencedStaticWebAssetsPublishManifest;GetCurrentProjectPublishStaticWebAssetItems",
