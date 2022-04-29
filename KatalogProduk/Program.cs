@@ -1,6 +1,10 @@
 using KatalogProduk.Data;
+using KatalogProduk.Helper;
 using KatalogProduk.SyncDataServices.Http;
+using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.IdentityModel.Tokens;
+using System.Text;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -23,6 +27,30 @@ builder.Services.AddScoped<IProduk, ProdukRepo>();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
+// jwt token
+ var AppSettingSection = builder.Configuration.GetSection("AppSettings");
+builder.Services.Configure<AppSettings>(AppSettingSection);
+var AppSetting = AppSettingSection.Get<AppSettings>();
+var key = Encoding.ASCII.GetBytes(AppSetting.Secret);
+
+builder.Services.AddAuthentication(options =>
+{
+    options.DefaultAuthenticateScheme = JwtBearerDefaults.AuthenticationScheme;
+    options.DefaultChallengeScheme = JwtBearerDefaults.AuthenticationScheme;
+}).AddJwtBearer(options =>
+{
+    options.RequireHttpsMetadata = false;
+    options.SaveToken = true;
+    options.TokenValidationParameters =
+        new Microsoft.IdentityModel.Tokens.TokenValidationParameters
+        {
+            ValidateIssuerSigningKey = true,
+            IssuerSigningKey = new SymmetricSecurityKey(key),
+            ValidateIssuer = false,
+            ValidateAudience = false
+
+        };
+});
 
 var app = builder.Build();
 
