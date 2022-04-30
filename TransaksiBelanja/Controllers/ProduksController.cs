@@ -25,8 +25,9 @@ namespace TransaksiBelanja.Controllers
         [HttpPost]
         public async Task<ActionResult> Post()
         {
-            Console.WriteLine("--> Inbound POST CommandService");
-            return Ok("Inbound test dari Platform Controller");
+            //Console.WriteLine(value);
+            Console.WriteLine("--> Inbound POST KatalogProduk");
+            return Ok("Inbound test dari ProdukController");
         }
 
         // POST api/<ProduksController>

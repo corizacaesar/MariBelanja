@@ -25,11 +25,11 @@ namespace KatalogProduk.SyncDataServices.Http
             Console.WriteLine(httpContent);
             if (response.IsSuccessStatusCode)
             {
-                Console.WriteLine("--> Sync POST ke CommandService berhasil dikirimkan");
+                Console.WriteLine("--> Sync POST ke TransaksiBelanja berhasil dikirimkan");
             }
             else
             {
-                Console.WriteLine("--> Sync POST ke CommandServices gagal dikirimkan");
+                Console.WriteLine("--> Sync POST ke TransaksiBelanja gagal dikirimkan");
             }
         }
     }
