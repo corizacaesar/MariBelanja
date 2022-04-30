@@ -5,6 +5,7 @@ using System.Threading.Tasks;
 using AutoMapper;
 using Shipping.DTO;
 using Shipping.Models;
+using TransaksiBelanja.Models;
 
 namespace Shipping.Profiles
 {
@@ -12,6 +13,9 @@ namespace Shipping.Profiles
     {
         public ShippingsProfile()
         {
+            CreateMap<Shopping,ShoppingViewDto>();
+            CreateMap<ShoppingCreateDto,Shopping>().ForMember(dest=>dest.ExternalID, opt=>opt.MapFrom(src=>src.Id));
+
             CreateMap<Ship, ShippingDTO>();
             CreateMap<ShippingCreateDTO, Ship>();
         }
