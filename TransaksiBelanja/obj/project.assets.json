@@ -2280,19 +2280,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\ASUS\\.nuget\\packages\\": {}
+    "C:\\Users\\Kus\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\ASUS\\source\\repos\\corizacaesar\\MariBelanja\\TransaksiBelanja\\TransaksiBelanja.csproj",
+      "projectUniqueName": "F:\\DOK\\Bootcamp\\New MariBelanja\\MariBelanja\\TransaksiBelanja\\TransaksiBelanja.csproj",
       "projectName": "TransaksiBelanja",
-      "projectPath": "C:\\Users\\ASUS\\source\\repos\\corizacaesar\\MariBelanja\\TransaksiBelanja\\TransaksiBelanja.csproj",
-      "packagesPath": "C:\\Users\\ASUS\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\ASUS\\source\\repos\\corizacaesar\\MariBelanja\\TransaksiBelanja\\obj\\",
+      "projectPath": "F:\\DOK\\Bootcamp\\New MariBelanja\\MariBelanja\\TransaksiBelanja\\TransaksiBelanja.csproj",
+      "packagesPath": "C:\\Users\\Kus\\.nuget\\packages\\",
+      "outputPath": "F:\\DOK\\Bootcamp\\New MariBelanja\\MariBelanja\\TransaksiBelanja\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\ASUS\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Kus\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -2381,7 +2381,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.201\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.202\\RuntimeIdentifierGraph.json"
       }
     }
   }

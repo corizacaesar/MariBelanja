@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\ASUS\\source\\repos\\corizacaesar\\MariBelanja\\KatalogProduk\\KatalogProduk.csproj": {}
+    "F:\\DOK\\Bootcamp\\New MariBelanja\\MariBelanja\\KatalogProduk\\KatalogProduk.csproj": {}
   },
   "projects": {
-    "C:\\Users\\ASUS\\source\\repos\\corizacaesar\\MariBelanja\\KatalogProduk\\KatalogProduk.csproj": {
+    "F:\\DOK\\Bootcamp\\New MariBelanja\\MariBelanja\\KatalogProduk\\KatalogProduk.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\ASUS\\source\\repos\\corizacaesar\\MariBelanja\\KatalogProduk\\KatalogProduk.csproj",
+        "projectUniqueName": "F:\\DOK\\Bootcamp\\New MariBelanja\\MariBelanja\\KatalogProduk\\KatalogProduk.csproj",
         "projectName": "KatalogProduk",
-        "projectPath": "C:\\Users\\ASUS\\source\\repos\\corizacaesar\\MariBelanja\\KatalogProduk\\KatalogProduk.csproj",
-        "packagesPath": "C:\\Users\\ASUS\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\ASUS\\source\\repos\\corizacaesar\\MariBelanja\\KatalogProduk\\obj\\",
+        "projectPath": "F:\\DOK\\Bootcamp\\New MariBelanja\\MariBelanja\\KatalogProduk\\KatalogProduk.csproj",
+        "packagesPath": "C:\\Users\\Kus\\.nuget\\packages\\",
+        "outputPath": "F:\\DOK\\Bootcamp\\New MariBelanja\\MariBelanja\\KatalogProduk\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\ASUS\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Kus\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -93,7 +93,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.201\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.202\\RuntimeIdentifierGraph.json"
         }
       }
     }
