@@ -21,7 +21,7 @@ builder.Services.AddDbContext<AppDbContext>(opt => opt.UseInMemoryDatabase("InMe
 builder.Services.AddAutoMapper(AppDomain.CurrentDomain.GetAssemblies());
 
 builder.Services.AddScoped<IShipping, ShippingRepo>();
-//builder.Services.AddSingleton<IEventProcessor,EventProcessor>();
+builder.Services.AddSingleton<IEventProcessor,EventProcessor>();
 
 builder.Services.AddHostedService<MessageAsyncSubscriber>();
 

@@ -31,10 +31,3 @@ spec:
             name: shippings-clusterip-srv
             port: 
               number: 80
-      - path: /api/authorizations
-        pathType: Prefix
-        backend:
-          service:
-            name: authorizations-clusterip-srv
-            port: 
-              number: 80
