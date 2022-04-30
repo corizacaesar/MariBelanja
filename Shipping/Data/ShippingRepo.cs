@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using Shipping.Models;
+using TransaksiBelanja.Models;
 using Microsoft.EntityFrameworkCore;
 
 namespace Shipping.Data
@@ -88,5 +89,32 @@ namespace Shipping.Data
                 throw new Exception(ex.Message);
             }
         }
+
+
+        public bool ExternalShoppingExist(int externalShoppingId)
+        {
+            return _context.Shoppings.Any(p=>p.ExternalID == externalShoppingId);
+        }
+
+        public IEnumerable<Shopping> GetAllShopping()
+        {
+            return _context.Shoppings.ToList();
+        }
+        public bool ShoppingExist(int ShoppingId)
+        {
+            return _context.Shoppings.Any(p=>p.Id==ShoppingId);
+        }
+        public void CreateShopping(Shopping shopping)
+        {
+            if(shopping==null)
+                throw new ArgumentNullException(nameof(shopping));
+            _context.Shoppings.Add(shopping);
+        }
+
+        public bool SaveChange()
+        {
+            return (_context.SaveChanges() >= 0);
+        }
+        
     }
 }

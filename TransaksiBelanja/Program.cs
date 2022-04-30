@@ -26,6 +26,8 @@ builder.Services.AddDbContext<AppDbContext>(options => options.UseSqlServer(buil
 builder.Services.AddScoped<IShopping, ShoppingRepo>();
 builder.Services.AddScoped<IProduct, ProductRepo>();
 
+builder.Services.AddSingleton<IMessageAsyncClient,MessageAsyncClient>();
+
 //builder.Services.AddIdentity<IdentityUser, IdentityRole>().AddDefaultTokenProviders().AddEntityFrameworkStores<AppDbContext>();
 
 //jwt token

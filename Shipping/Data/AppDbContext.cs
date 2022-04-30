@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using Shipping.Models;
+using TransaksiBelanja.Models;
 using Microsoft.EntityFrameworkCore;
 
 namespace Shipping.Data
@@ -15,5 +16,6 @@ namespace Shipping.Data
         }
 
         public DbSet<Ship> Shippings { get; set; }
+        public DbSet<Shopping> Shoppings { get; set; }
     }
 }
