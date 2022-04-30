@@ -15,6 +15,7 @@ namespace Data.Profiles
         {
             CreateMap<Shopping, ShoppingViewDto>();
             CreateMap<ShoppingCreateDto, Shopping>();
+            CreateMap<Shopping, ShoppingPublishDto>();
         }
     }
 }

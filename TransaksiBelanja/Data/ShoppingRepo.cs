@@ -84,5 +84,18 @@ namespace TransaksiBelanja.Data
                 throw new Exception(ex.Message);
             }
         }
+
+        public void CreateShopping(Shopping shopping)
+        {
+            if(shopping==null)
+                throw new ArgumentNullException(nameof(shopping));
+            _context.Shoppings.Add(shopping);
+        }
+
+        public bool SaveChanges()
+        {
+            return (_context.SaveChanges() >= 0);
+        }
+        
     }
 }

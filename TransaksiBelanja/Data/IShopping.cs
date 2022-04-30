@@ -9,6 +9,7 @@ namespace TransaksiBelanja.Data
 {
     public interface IShopping:ICrud<Shopping>
     {
-
+        void CreateShopping(Shopping shopping);
+        bool SaveChanges();
     }
 }

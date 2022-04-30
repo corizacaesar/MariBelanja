@@ -44,7 +44,7 @@ namespace TransaksiBelanja.AsyncDataService
             Console.WriteLine("-->RabbitMQ Connection Shutdown");
         }
 
-        public void PublishNewShopping(ShoppingCreateDto shoppingDto)
+        public void PublishNewShopping(ShoppingPublishDto shoppingDto)
         {
             var message = JsonSerializer.Serialize(shoppingDto);
             if(_connection.IsOpen)
@@ -75,9 +75,5 @@ namespace TransaksiBelanja.AsyncDataService
             Console.WriteLine($"--> Pesan Terkirim : {message}");
         }
 
-        // public void PublishNewShopping(ShoppingCreateDto shoppingDto)
-        // {
-        //    throw new NotImplementedException();
-        // }
     }
 }

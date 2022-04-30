@@ -3,6 +3,7 @@ using TransaksiBelanja.Data;
 using TransaksiBelanja.Models;
 using Microsoft.AspNetCore.Mvc;
 using Dtos;
+using TransaksiBelanja.AsyncDataService;
 
 // For more information on enabling Web API for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
 
@@ -14,6 +15,7 @@ namespace TransaksiBelanja.Controllers
     {
         private readonly IShopping _shopping;
         private readonly IMapper _mapper;
+        private readonly IMessageAsyncClient _messageAsyncCLient;
 
         public ShoppingController(IShopping shopping, IMapper mapper)
         {
@@ -90,6 +92,41 @@ namespace TransaksiBelanja.Controllers
             {
                 return BadRequest(ex.Message);
             }
+        }
+
+        [HttpPost]
+        public async Task<ActionResult<Shopping>> CreateShopping(ShoppingPublishDto shoppingPublishDto)
+        {
+            var newShopping = _mapper.Map<Shopping>(shoppingPublishDto);
+            _shopping.CreateShopping(newShopping);
+            _shopping.SaveChanges();
+
+            var shoppingReadDto = _mapper.Map<Shopping>(newShopping);
+
+            /*try
+            {
+                //sync message
+               await _commandDataClient.SendPlatformToCommand(platformReadDto);
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine($"-->Tidak dapat mengirimkan Sync Data: {ex.Message}");
+            }*/
+
+            //Kirim async
+            try
+            {
+                var shoppingDto = _mapper.Map<ShoppingPublishDto>(shoppingReadDto);
+                shoppingDto.Event = "Shopping_Publish";
+                _messageAsyncCLient.PublishNewShopping(shoppingDto);
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine($"--> Tidak dapat mengirimkan asynd message {ex.Message}");
+            }
+
+            //return CreatedAtAction(nameof(GetPlatformById),new { Id=platformReadDto.Id }, platformReadDto);
+            return Ok(shoppingPublishDto);
         }
     }
 }

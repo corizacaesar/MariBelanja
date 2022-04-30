@@ -9,6 +9,6 @@ namespace TransaksiBelanja.AsyncDataService
 {
     public interface IMessageAsyncClient
     {
-        void PublishNewShopping(ShoppingCreateDto shoppingDto);
+        void PublishNewShopping(ShoppingPublishDto shoppingDto);
     }
 }
